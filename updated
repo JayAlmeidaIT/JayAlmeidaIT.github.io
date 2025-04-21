@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jadrian Almeida - IT Support Portfolio</title>
+  <style>
+    :root {
+      --primary-color: #1e3a8a;
+      --accent-color: #2563eb;
+      --bg-color: #f5f7fa;
+      --text-color: #333;
+      --section-bg: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.7;
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: #fff;
+      padding: 3rem 1rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2.5rem 1.5rem;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+      background-color: var(--section-bg);
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      color: var(--accent-color);
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 0.3rem;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.6rem;
+    }
+
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #e5e7eb;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Jadrian Almeida</h1>
+    <p>IT Support Specialist | Technical Troubleshooting • Help Desk • Customer Service</p>
+  </header>
+
+  <div class="container">
+
+    <section>
+      <h2>About Me</h2>
+      <p>IT Support Specialist with 6 years of experience supporting individuals through technical problem-solving, customer service, and hands-on troubleshooting. Skilled in system maintenance, user support, and currently pursuing CompTIA A+ certification to further validate technical knowledge.</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Windows OS, Active Directory, VPN, RDP</li>
+        <li>Help Desk Ticketing Systems (osTicket)</li>
+        <li>Azure Virtual Machines & User Management</li>
+        <li>Basic Python scripting & troubleshooting tools</li>
+        <li>Customer Service & Team Collaboration</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>Google IT Support Certificate</li>
+        <li>CourseCareers IT Support</li>
+        <li>CompTIA A+ (In Progress – Knowledge Applied)</li>
+        <li>CPR/AED Certified</li>
+        <li>Medication Certified</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>osTicket Help Desk Setup</strong> – Deployed and configured a fully functional help desk system; practiced ticket routing, escalation, and user communication workflows.</li>
+        <li><strong>Microsoft Azure Active Directory</strong> – Built and managed an AD environment with VM instances, user accounts, permissions, and network security rules.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:jayalmeida97@gmail.com">jayalmeida97@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/jadrianalmeida/">linkedin.com/in/jadrianalmeida</a></p>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Jadrian Almeida. Built with 💻 using GitHub Pages.
+  </footer>
+
+</body>
+</html>
